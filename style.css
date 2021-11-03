@@ -1,4 +1,29 @@
+.body{
+  min-height: 100vh;
+  margin: 0;
+  /*display: flex;
+  flex-direction: column;*/
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.container{
+  border: 2px solid black;
+}
+
 .sketchGrid{
   display: grid;
-  grid-template-columns: repeat(16,1fr);
+}
+
+.gridItem{
+  border: 1px dotted rgb(201, 201, 201);
+}
+
+.drawn{
+  background-color: black;
 }
